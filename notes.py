@@ -150,3 +150,151 @@ print(bool())
 print(bool(True))
 print(bool(False))
 print(bool([1,2]))
+
+#Point 10
+
+##Arithmentic Operators
+
+#Addition = +
+#Subtraction = -
+#Multiplication = *
+#Division = /
+#Floor_Division = //
+#Modulus_Operator = %
+#Exponentiation_Operator = **
+
+#Result Format = Numeric
+
+a = 10 + 12
+print(a)
+
+b = (15 + 56 )//4
+print(b)
+
+print(a ** b )
+
+##Relational Operators
+
+#Greater Than = >
+#Less Than = <
+#Equal To = ==
+#Greater Than And Equal To = >=
+#Less Than And Equal To = <=
+#Not Equal To = !=
+
+#Result Format = Boolean ( True, False )
+
+a = 5 > 4
+print(a)
+
+print(5 == 5)
+print(10>= 7)
+print(23<34)
+print(5 != 5)
+print(5 != 8)
+
+new = int(input("Enter a Value:"))
+print(new >= 4 )
+
+##Logical Operators
+
+#AND
+#OR
+#NOT
+
+#Result Format = Boolean ( True or False )
+
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+
+print(True or True)
+print(True or False)
+print(False or True)
+print(False or False)
+
+print(not(True))
+print(not(False))
+
+a = 2 ** 3
+b = 3 ** 2
+print(a == b, a >= b, a != b)
+
+##Question 11
+x = "Chennai"
+b = 0
+result = (x and b) or (b or x)
+print(result)
+
+##Question 12
+print(-13 // 4)
+print(-13 % 4)
+
+   #Use this formula: Remainder =a−(b×quotient)
+
+   ##Question 13
+
+#Note: Comma also occupies the index number.
+prac = "0,1,2,3,4,5,6,7,8,9"
+a = prac[4]
+b = prac[8]
+c = a + b
+print(c)
+
+prac2 = "0,1,2,3,4,5,6,7,8,9"
+a1 = int(prac2[4])
+b2 = int(prac2[8])
+print(a1 + b2)
+
+#Solution : Remove Comma
+
+prac = "0123456789"
+a = prac[4]
+b = prac[8]
+c = a + b
+print(c)
+
+prac2 = "0123456789"
+a1 = int(prac2[4])
+b2 = int(prac2[8])
+print(a1 + b2)
+
+##Topic 14 : Applying Multiplication Operator on String Literal
+
+name = "Shivam Kumar" #name = variable; Shivam Kumar = String_literal
+print(name * 5) #To see "Shivam Kumar" 5 times
+print(name[5] * 5) #To see "m" 5 times from the word "Shivam"
+print(name[1:6] * 5) #To see "hivam" 5 times from the word "Shivam"
+print(name[-10] * 5) #To see "i" 5 times from the word "Shivam"
+
+##Topic 15 : Applying Negative Indexing on String Literal
+
+name = "Shivam Kumar"
+print(name[-4]) #Showing "U" from the word "Kumar"
+#print(name[-5,-3]) #wrong code
+print(name[1:-2]) #Showing "hivam Kum" from "Shivam Kumar"
+print(name[-2:-5]) #wrong execution of code, but code is working
+print(name[:-8]) #Shows "Shiv" from "Shivam Kumar"
+print(name[::-4]) #Shows every 4th letter inversly from Shivam Kumar ;  Result : rKv
+print(name[-2:1]) #wrong execution of code, but code is working; 1 is blocking the result to show "hivam kuma"
+
+##Topic 17 : Comparison Operators on String Literal
+
+print("Shivam" > "Apple") 
+print("Apple" > "Age")
+print("Apple" == "Apple")
+print("Apple" >= "Shivam")
+print("Apple" <= "Mango")
+print("Apple" <= "Mango" and "Shivam" >= "Age")
+print("Apple" <= "Mango" or "Shivam" >= "Age")
+print(not("Apple" == "Mango" ))
+print(not("Apple" < "Shivam"))
+
+##Topic 18 : Finding Length of String Literal
+
+name = "Shivam Kumar"
+print(len(name))
+
+s = "123456789"
+print(len(s))
